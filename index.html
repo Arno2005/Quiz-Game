@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Quiz App</title>
+</head>
+
+<body>
+	<div class="main">
+
+		<div class="timer">05:00</div>
+
+		<div class="inner-main start">
+			<h1>Welcome to the Quiz App</h1>
+			<p>After You Click Start Button, You Will Have 3 Minutes to Answer 5 General Knowledge Questions.
+				<br>
+			When You Finish, You Will See The Results
+			</p>
+			<a onclick="start()" href="#">Start</a>
+		</div>
+
+		<div class="inner-main que">
+			
+			<p class="qst"></p>
+
+
+			<div class="vrs">
+				<a class="one"></a>
+				<a class="two"></a>
+				<a class="three"></a>
+				<a class="four"></a>
+			</div>
+			
+
+		</div>
+
+		<div class="inner-main end">
+			<h1 class="fin">You Completed The Quiz! <br></h1>
+
+			<div class="details">
+				
+			</div>
+
+			<a onclick="location.reload()" class="rs">Start Page</a>
+		</div>
+	</div>
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
