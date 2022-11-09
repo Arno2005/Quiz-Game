@@ -1,5 +1,3 @@
-
-
 var data = [["When Did World War 2 Start?", [1685,1946,1939,1804], 2],
 			["Which of These Languages Has The Most Native Speakers?", ['English', 'Portuguese', 'Spanish', 'Chinese'], 2],
 			["What artist has the most streams on Spotify?", ['Eminem' , 'Ed Sheeran', '50 Cent','Drake'], 1],
@@ -30,9 +28,9 @@ function start(){
 	document.querySelector('.start').style.display = 'none';
 	document.querySelector('.que').style.display = 'block';
 
-	var fiveMinutes = 60 * 5;
+	var threeMinutes = 60 * 30;
     display = document.querySelector('.timer');
-    startTimer(fiveMinutes, display);
+    startTimer(threeMinutes, display);
 
 	act();
 

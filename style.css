@@ -65,6 +65,27 @@
 	text-transform:capitalize;
 }
 
+.vrs{
+	display: flex;
+	gap: 25px;
+}
+
+.col1, .col2{
+    min-width: max-content;
+	flex: 0 0 calc(50% - (10px / 2) );
+}
+
+.one, .two, .three, .four{
+	display: block;
+	padding: 18px 175px!important;
+	border-radius: 25px!important;
+	text-overflow: clip;
+}
+
+.one, .three{
+	margin-bottom: 12px;
+}
+
 .end{
 	display: none;
 }
