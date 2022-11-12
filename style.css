@@ -7,19 +7,19 @@
 }
 
 .main{
+	display: flex;
 	height: 100vh;
 	width: 100vw;
-	background: #333333;
-	color: #fff;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: 'Inter Tight', sans-serif;
+	color: #fff;
+	background: #333333;
 }
 
 .inner-main{
 	margin-top: -35px;
-	font-size: 20px;
+	font-size: 22px;
 	text-align: center;
 }
 
@@ -34,6 +34,10 @@
 .inner-main p{
 	margin-bottom: 40px;
 }
+.details p{
+	margin-bottom: 15px!important;
+	font-size: 21px;
+}
 
 .inner-main a{
 	font-size: 19px;
@@ -41,7 +45,8 @@
 	text-decoration: none;
 	background: #Eeeeee;
 	border: 2px solid #eee;
-	padding: 8px 25px;
+	border-radius: 25px;
+	padding: 10px 33px;
 	cursor: pointer;
 	transition: .6s;
 	
@@ -78,7 +83,7 @@
 .one, .two, .three, .four{
 	display: block;
 	padding: 18px 175px!important;
-	border-radius: 25px!important;
+/*	border-radius: 25px!important;*/
 	text-overflow: clip;
 }
 

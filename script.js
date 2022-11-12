@@ -28,7 +28,7 @@ function start(){
 	document.querySelector('.start').style.display = 'none';
 	document.querySelector('.que').style.display = 'block';
 
-	var threeMinutes = 60 * 30;
+	var threeMinutes = 60 * 3;
     display = document.querySelector('.timer');
     startTimer(threeMinutes, display);
 
@@ -92,7 +92,7 @@ function end(score, data){
 			ans = "Correct";
 		}
 
-		let list = document.createElement("h3");
+		let list = document.createElement("p");
 		let results = document.createTextNode(`Question ${i+1}:  ${ans}`);
 
 		list.appendChild(results);
